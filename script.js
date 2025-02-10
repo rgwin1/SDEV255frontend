@@ -1,6 +1,6 @@
 //make an event listener that will trigger when the DOM is loaded (upon visiting webpage)
 addEventListener("DOMContentLoaded", async function(){
-    const response = await fetch("https://sdev255m4tutorial.glitch.me")
+    const response = await fetch("https://sdev255m4tutorial.glitch.me/")
     const songs = await response.json()
 
     let html = ""
